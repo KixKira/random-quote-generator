@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-light: #7fdbff;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    padding: 2rem;
+    width: 200px;
+    background: var(--bg-light);
+    box-shadow: 4px 4px #000;
+}
+
+button {
+    padding: 0.5rem;
+    width: auto;
+    background: var(--bg-light);
+    box-shadow: 4px 4px #000;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-body {
+    min-height: 150px;
+    display: grid;
+    align-items: center;
+}
+
+#content small {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#generate:active {
+    box-shadow: 4px 4px var(--bg-light);
+    transform: translate(4px, 4px);
+}
